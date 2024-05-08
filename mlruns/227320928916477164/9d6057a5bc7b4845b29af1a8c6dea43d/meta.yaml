@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/227320928916477164/9d6057a5bc7b4845b29af1a8c6dea43d/artifacts
+end_time: 1715077671437
+entry_point_name: ''
+experiment_id: '227320928916477164'
+lifecycle_stage: active
+run_id: 9d6057a5bc7b4845b29af1a8c6dea43d
+run_name: enthused-rook-424
+run_uuid: 9d6057a5bc7b4845b29af1a8c6dea43d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715077664810
+status: 3
+tags: []
+user_id: Prashant
