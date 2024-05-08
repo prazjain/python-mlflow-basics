@@ -1,5 +1,3 @@
-local_tracking/venv
-dagshub_tracking/venv
-aws_tracking/venv
 venv
-
+mlartifacts/
+mlruns/

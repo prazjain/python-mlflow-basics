@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import argparse
 
 parser=argparse.ArgumentParser()
-parser.add_argument("mode", choices=['local', 'dagshub', 'aws'])
+parser.add_argument("--mode", choices=['local', 'dagshub', 'aws'])
 args=parser.parse_args()
 
 # Load the Iris dataset
@@ -49,9 +49,9 @@ url = ''
 if args.mode == 'local':
     url = "http://127.0.0.1:8080"
 elif args.mode == 'dagshub':
-    url = 'http://hello.com'
+    url = 'https://dagshub.com/prazjain/python-mlflow-basics.mlflow'
 elif args.mode == 'aws':
-    url = 'http://aws url'
+    url = 'http://aws-url'
 
 # Set our tracking server uri for logging
 mlflow.set_tracking_uri(uri=url)
