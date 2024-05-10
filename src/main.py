@@ -51,7 +51,7 @@ if args.mode == 'local':
 elif args.mode == 'dagshub':
     url = 'https://dagshub.com/prazjain/python-mlflow-basics.mlflow'
 elif args.mode == 'aws':
-    url = 'http://aws-url'
+    url = 'http://ec2-54-87-42-139.compute-1.amazonaws.com:5000/'
 
 # Set our tracking server uri for logging
 mlflow.set_tracking_uri(uri=url)
